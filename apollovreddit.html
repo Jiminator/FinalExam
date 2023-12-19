@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
-    <script src="script.js"></script>
-    <script src="https://unpkg.com/scrollreveal"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   </head>
   <body>
     <header>
@@ -28,10 +28,10 @@
       </div>
     </div>
     <section class="timeline">
-      <div class="timeline-item">
+      <div class="timeline-item" data-aos="fade-right">
         <div class="timeline-image">
         </div>
-        <div class="timeline-item-content timeline-card animate__fadeInLeft">
+        <div class="timeline-item-content timeline-card ">
           <div style="background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0, .4)), url('./images/apollovreddit.png') center center no-repeat; background-size: cover;" class="timeline-image-header"> 
             <h2>Christian meets with Reddit</h2>
           </div>
@@ -41,10 +41,10 @@
           </p>
         </div>
       </div> 
-      <div class="timeline-item">
+      <div class="timeline-item" data-aos="fade-left">
         <div class="timeline-image">
         </div>
-        <div class="timeline-item-content timeline-card animate__fadeInRight">
+        <div class="timeline-item-content timeline-card ">
           <div style="background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0, .4)), url('./images/apollovreddit.png') center center no-repeat; background-size: cover;" class="timeline-image-header"> 
             <h2>Internal Rumour</h2>
           </div>
@@ -54,10 +54,10 @@
           </p>
         </div>
       </div> 
-      <div class="timeline-item">
+      <div class="timeline-item" data-aos="fade-right">
         <div class="timeline-image">
         </div>
-        <div class="timeline-item-content timeline-card animate__fadeInLeft">
+        <div class="timeline-item-content timeline-card ">
           <div style="background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0, .4)), url('./images/apollovreddit.png') center center no-repeat; background-size: cover;" class="timeline-image-header"> 
             <h2>Reddit claims that Apollo is inefficient.</h2>
           </div>
@@ -67,10 +67,10 @@
           </p>
         </div>
       </div> 
-      <div class="timeline-item">
+      <div class="timeline-item" data-aos="fade-left">
         <div class="timeline-image">
         </div>
-        <div class="timeline-item-content timeline-card animate__fadeInRight">
+        <div class="timeline-item-content timeline-card ">
           <div style="background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0, .4)), url('./images/apollovreddit.png') center center no-repeat; background-size: cover;" class="timeline-image-header"> 
             <h2>Christian announces Apollo will shut down.</h2>
           </div>
@@ -81,10 +81,10 @@
           <a class="bnt-more" href="https://www.reddit.com/r/reddit/comments/145bram/comment/jnk4oz4/?utm_source=reddit&utm_medium=web2x&context=3" target="_blank">More</a>
         </div>
       </div> 
-      <div class="timeline-item">
+      <div class="timeline-item" data-aos="fade-right">
         <div class="timeline-image">
         </div>
-        <div class="timeline-item-content timeline-card animate__fadeInLeft">
+        <div class="timeline-item-content timeline-card ">
           <div style="background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0, .4)), url('./images/apollovreddit.png') center center no-repeat; background-size: cover;" class="timeline-image-header"> 
             <h2>Christian addresses the internal rumour</h2>
           </div>
@@ -95,10 +95,10 @@
           <a class="bnt-more" href="https://gist.github.com/christianselig/fda7e8bc5a25aec9824f915e6a5c7014" target="_blank">More</a>
         </div>
       </div> 
-      <div class="timeline-item">
+      <div class="timeline-item" data-aos="fade-left">
         <div class="timeline-image">
         </div>
-        <div class="timeline-item-content animate__fadeInRight">
+        <div class="timeline-item-content ">
           <div style="background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0, .4)), url('./images/apollovreddit.png') center center no-repeat; background-size: cover;" class="timeline-image-header"> 
             <h2>Reddit Responds</h2>
           </div>
@@ -109,10 +109,10 @@
           <a class="bnt-more" href="https://www.reddit.com/r/reddit/comments/145bram/comment/jnk4oz4/?utm_source=reddit&utm_medium=web2x&context=3" target="_blank">More</a>
         </div>
       </div> 
-      <div class="timeline-item">
+      <div class="timeline-item" data-aos="fade-right">
         <div class="timeline-image">
         </div>
-        <div class="timeline-item-content animate__fadeInLeft">
+        <div class="timeline-item-content ">
           <div style="background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0, .4)), url('./images/apollovreddit.png') center center no-repeat; background-size: cover;" class="timeline-image-header"> 
             <h2>Christian posts code of Apollo</h2>
           </div>
@@ -122,10 +122,10 @@
           <a class="bnt-more" href="https://github.com/christianselig/apollo-backend" target="_blank">More</a>
         </div>
       </div> 
-      <div class="timeline-item">
+      <div class="timeline-item" data-aos="fade-left">
         <div class="timeline-image">
         </div>
-        <div class="timeline-item-content timeline-card animate__fadeInRight">
+        <div class="timeline-item-content timeline-card ">
           <div style="background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0, .4)), url('./images/shutdown.png') center center no-repeat; background-size: cover;" class="timeline-image-header"> 
             <h2>Apollo Shuts Down</h2>
           </div>
@@ -137,6 +137,7 @@
           <a class="bnt-more" href="https://www.reddit.com/r/apolloapp/comments/14nb5qs/today_is_apollo_for_reddits_last_day_and_i_just/" target="_blank">More</a>
         </div>
       </div> 
-    </section>    
+    </section>   
+    <script src="./script.js"></script> 
   </body>
 </html>
